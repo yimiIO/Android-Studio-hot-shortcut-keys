@@ -1,0 +1,95 @@
+body {
+	margin: 0px 0px 0px 0px;
+	text-align: center;    
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+}
+a {
+	text-decoration: underline;
+	color: #518943;
+}
+a:hover {
+	color: #619953;
+}
+h1,h2,h3{
+	margin: 0px 0px 0px 0px;
+	padding: 5px;
+}
+#container {
+	line-height: 140%;
+	margin: 10px auto 0px auto;
+	text-align: left;
+	padding: 0px;
+	width: 750px;
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+#banner {
+	color: #FFFFFF;
+	background-color: #284B78;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 15px;
+	height: 60px;	
+}
+#banner a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+#menu {
+	margin: 0px 0px 0px 0px;
+	padding: 5px;	
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+#main{
+	margin: 0px 0px 0px 0px;
+	padding: 5;	
+	width: 100%;
+	overflow: hidden;
+}
+table{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+}
+
+td{   
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+form{
+	margin: 0px 0px 0px 0px;
+}
+form input,form textarea{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	background: #ffffff;
+    border: 1px solid #999;    
+}
+
+#tab th{
+	background: #eee;
+}
+#tab td{
+    background: #ffffff;
+	border-bottom: 1px dashed #ddd;
+}
+
+#copyright {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+	text-align: center;
+	color: #333;
+	margin-top: 10px;
+}
+#copyright a {
+	color: #666;
+	text-decoration: none;
+}
