@@ -8,27 +8,30 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js"
 	type="text/javascript" charset="utf-8"></script>
+<meta name="wumiiVerification" content="c0a44328-75fa-4118-b1dd-5feb9d2656b4" />
 <meta charset="utf-8">
+
+
 
 <title>98ki</title>
 
-<meta name="description" content="张鹏宇的网站">
+<meta name="description" content="很有内涵的网站">
 <meta name="keywords"
 	content="程序员, 一百种生活, 文艺青年, 闷骚, Java, Android, Web, 张鹏宇, 你才是程序员">
 <meta name="author" content="张鹏宇">
 
-<meta property="og:title" content="张鹏宇的个人网站">
+<meta property="og:title" content="很有内涵的网站">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://www.98ki.com">
+
 <meta property="og:image" content="files/images/zpy.png">
 <meta property="og:image:width" content="590">
 <meta property="og:image:height" content="440">
-
+<meta property="og:url" content="http://www.98ki.com/blog/HomeServlet" />
+<meta property="og:description" content="技术？极客？生活？" />
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="fb:app_id" content="381830641890866">
 
 <!-- For all browsers -->
 <link rel="stylesheet" type="text/css" href="/files/style.css">

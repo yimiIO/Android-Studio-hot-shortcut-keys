@@ -8,34 +8,65 @@
 <div id="content-detail" class="content blog clearfix"
 	style="opacity: 1; top: 0px;">
 
-	<div class="row">
+	<div class="row" id="rowid">
 
 		<div class="col-9">
 
-			<%
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{"tsina":"1672863306"},"bdText":"很有内涵的文章","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"1","bdPos":"left","bdTop":"72.5"},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"24"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<%
 				Blog blog = (Blog) request.getAttribute("blog");
 				List list = (List) request.getAttribute("commentList");
 			%>
 
 
 			<table width=100% id="tab" border="0"
-				style='table-layout:fixed; word-break:break-all; word-wrap:break-word'>
+				style=' padding-left: 20px; text-align:left;table-layout:fixed; word-break:break-all; word-wrap:break-word'>
 				<tr>
 					<td><h1><%=blog.getTitle()%></h1>
 					</td>
 				</tr>
-				<tr>
+					<tr>
 					<td><%=blog.getContent()%></td>
 
 				</tr>
 
 				<tr>
 					<td><%=blog.getCreatedTime()%></td>
+	
 				</tr>
+<tr>
+<td>
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+	<span class="jiathis_txt">分享到：</span>
+	<a class="jiathis_button_qzone">QQ空间</a>
+	<a class="jiathis_button_tsina">新浪微博</a>
+	<a class="jiathis_button_tqq">腾讯微博</a>
+	<a class="jiathis_button_weixin">微信</a>
+	<a href="http://www.jiathis.com/share?uid=1955110" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript">
+var jiathis_config = {data_track_clickback:'true'};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1406184816460873" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+<!-- UJian Button BEGIN -->
+	<div class="ujian-hook"></div>
+	<script type="text/javascript" src="http://v1.ujian.cc/code/ujian.js"></script>
+<!-- UJian Button END -->
 
+
+</td></tr>
 				<tr>
 					<td>&nbsp;</td>
 				</tr>
+				
+				<tr>
+				
+				</tr>
+				
 				<tr>
 					<td height="79">
 						<%
@@ -52,12 +83,16 @@
 							</tr>
 							<tr>
 								<td><%=comment.getCreatedTime()%></td>
+								
 							</tr>
-						</table> <br>
-					<br> <%
+						</table> <br> <br> <%
  	}
  	}
  %>
+ 
+
+
+
 						<p>&nbsp;</p>
 					</td>
 				</tr>
@@ -82,8 +117,8 @@
 								</tr>
 								<tr>
 									<td><label> 1+1=<input name="verify" type="text"
-											id="name" size="2" /> </label><label><input type="submit" name="button"
-											id="button" value="提交" /> </label>
+											id="name" size="2" /> </label><label><input type="submit"
+											name="button" id="button" value="提交" /> </label>
 									</td>
 									<td>&nbsp;</td>
 								</tr>
@@ -94,6 +129,7 @@
 
 
 			<br clear="all" />
+			
 		</div>
 		<!-- end col-9 -->
 		<div class="col-3">
@@ -169,6 +205,8 @@
 						}
 					%>
 				</ul>
+
+			
 				<h2>最近的评论</h2>
 				<ul>
 					<%
@@ -181,7 +219,7 @@
 					%>
 					<li><a
 						href="/blog/HomeServlet?method=get&id=<%=c.getBlogId()%>"
-						target="_blank"><xmp><%=comment%></xmp></a>
+						target="_blank"><xmp><%=comment%></xmp> </a>
 					</li>
 					<%
 						}
@@ -205,6 +243,8 @@
 	</div>
 
 </div>
+
+
 
 
 

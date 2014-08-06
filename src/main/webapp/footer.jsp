@@ -21,15 +21,20 @@
 
 				<ul>
 					<li class="page_item page-item-2"><a
-						href="http://www.98ki.com/code">coder</a></li>
+						href="http://www.98ki.com/code">coder</a>
+					</li>
 					<li class="page_item page-item-5"><a
-						href="http://www.98ki.com/photo">photo</a></li>
+						href="http://www.98ki.com/photo">photo</a>
+					</li>
 					<li class="page_item page-item-7"><a
 						href="http://tieba.baidu.com/f?kw=%E4%BB%BB%E5%B2%81%E6%9C%88%E9%A3%8E%E5%B9%B2%E7%90%86%E6%83%B3%E6%89%BE%E4%B8%8D%E5%9B%9E%E7%9C%9F%E7%9A%84%E6%88%91"
-						target="_blank">life</a></li>
-					<li class="page_item page-item-9"><a href="/blog">blog</a></li>
+						target="_blank">life</a>
+					</li>
+					<li class="page_item page-item-9"><a href="/blog">blog</a>
+					</li>
 					<li class="page_item page-item-11"><a
-						href="http://www.98ki.com/contact">contact</a></li>
+						href="http://www.98ki.com/contact">contact</a>
+					</li>
 				</ul>
 
 			</nav>
@@ -54,6 +59,7 @@
 <script src="files/jquery_002.js"></script>
 
 <script src="files/script.js"></script>
+
 <script type="text/javascript">
 <!--
 	//If browser is IE8 or older we show IE specific page
