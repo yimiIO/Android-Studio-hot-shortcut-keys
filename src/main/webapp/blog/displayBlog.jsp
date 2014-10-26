@@ -33,7 +33,9 @@
 
 				<tr>
 					<td><%=blog.getCreatedTime()%></td>
-	
+				</br>
+		</br>		
+				
 				</tr>
 <tr>
 <td>
@@ -59,72 +61,15 @@ var jiathis_config = {data_track_clickback:'true'};
 
 
 </td></tr>
-				<tr>
-					<td>&nbsp;</td>
-				</tr>
+	
 				
-				<tr>
+<tr>
+<td>
+<wb:comments url="auto" brandline="y" fontsize="14" width="auto" color="299999,fffbfa,4c4c4c,1582fe,c6c6c6,299999" language="zh_cn" appkey="1672863306" ralateuid="2000645405" ></wb:comments>
+					
+</td>
+</tr>
 				
-				</tr>
-				
-				<tr>
-					<td height="79">
-						<%
-							if (list != null) {
-								for (int i = 0; i < list.size(); i++) {
-									Comment comment = (Comment) list.get(i);
-						%>
-						<table id="tab">
-							<tr>
-								<td><%=comment.getUsername()%>的评论</td>
-							</tr>
-							<tr>
-								<td><xmp><%=comment.getContent()%></xmp></td>
-							</tr>
-							<tr>
-								<td><%=comment.getCreatedTime()%></td>
-								
-							</tr>
-						</table> <br> <br> <%
- 	}
- 	}
- %>
- 
-
-
-
-						<p>&nbsp;</p>
-					</td>
-				</tr>
-
-				<tr>
-					<td><form id="form1" action="/blog/CommentServlet"
-							method="post">
-							<input type="hidden" name="method" value="add" /> <input
-								type="hidden" name="blog_id" value="<%=blog.getId()%>" />
-							<table id="tab">
-								<tr>
-									<td>评论人：</td>
-									<td><label> <input name="name" type="text"
-											id="name" size="20" /> </label>
-									</td>
-								</tr>
-								<tr>
-									<td>内容：</td>
-									<td><label> <textarea name="content" cols="60"
-												rows="10" id="content1"></textarea> </label>
-									</td>
-								</tr>
-								<tr>
-									<td><label> 1+1=<input name="verify" type="text"
-											id="name" size="2" /> </label><label><input type="submit"
-											name="button" id="button" value="提交" /> </label>
-									</td>
-									<td>&nbsp;</td>
-								</tr>
-							</table>
-						</form></td>
-				</tr>
 			</table>
 
 
@@ -207,30 +152,7 @@ var jiathis_config = {data_track_clickback:'true'};
 				</ul>
 
 			
-				<h2>最近的评论</h2>
-				<ul>
-					<%
-						List comments = (List) request.getAttribute("comments");
-						for (int i = 0; i < comments.size(); i++) {
-							Comment c = (Comment) comments.get(i);
-							String comment = c.getContent();
-							if (comment.length() > 20)
-								comment = comment.substring(0, 20) + "……";
-					%>
-					<li><a
-						href="/blog/HomeServlet?method=get&id=<%=c.getBlogId()%>"
-						target="_blank"><xmp><%=comment%></xmp> </a>
-					</li>
-					<%
-						}
-					%>
-
-
-
-
-
-				</ul>
-
+			
 
 
 

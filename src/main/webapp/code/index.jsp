@@ -10,19 +10,17 @@
 				<h2>一个没有过去和未来的程序猿</h2>
 				</br>
 				<p>大学接触编程，身边很少有人愿意把时间花在编程上，所以大部分时间只能一个人编程，很期待传说中的敏捷开发、结对编程。走了些弯路，最后悔的是很少去思考.</p>
-				<p>有时候我也很迷茫，很多同学去培训IOS了，被保证工资是8000+,我不想放弃心爱的Java,最重要的是我不想成为被市场经济下的流水线商品，成为有价值的之前，我希望先成为一个人。</p>
+				<p>喜欢移动互联网，擅长搞搞服务器，喜欢决挑战性的问题，喜欢尝试新事物，乐于交流，追求高效的团队合作，对产品设计和体验有独特的想法。 </p>
 <p>附：关于网站的两个开源项目，独立的个人博客系统<a href="https://github.com/berniezhang428/98Blog" target="_blank">98Blog</a>和本站源码<a href="https://github.com/berniezhang428/98ki" target="_blank">98ki</a></p>
 				<p>
 					<wb:follow-button uid="2000645405" type="red_3" width="100%"
 						height="24"></wb:follow-button>
-
 				</p>
 
 			</div>
-			<div id="img-main" class="col-7 align-c"
+			<div id="img-main" class="col-7"
 				style="visibility: visible; left: 0%; opacity: 1;">
-				<img class="major" src="/files/images/zpy3.png"
-					alt="adham dannaway ui designer">
+				<%@include file="/code/zpyAscl.htm"%>
 			</div>
 		</div>
 		<div id="snaps" class="row align-c snaps clearfix"
@@ -31,27 +29,33 @@
 			<a id="snaps-1" target="_blank"
 				href="http://www.anzhi.com/soft_1646648.html"
 				style="visibility: visible; top: 0px; opacity: 1;"> <img
-				src="./files/MapAlbum.jpg" alt="地图相册"> </a> <a id="snaps-2"
+				src="./files/MapAlbum.jpg" alt="地图相册"> </a>
+				<a id="snaps-2" target="_blank"
+				href="https://github.com/berniezhang428/phone_manager"
+				style="visibility: visible; top: 0px; opacity: 1;"> <img
+				src="./files/ukylinphone.png" alt="优麒麟手机助手"> </a>
+				<a id="snaps-3"
 				target="_blank"
 				href="http://zhushou.360.cn/detail/index/soft_id/788456?recrefer=SE_D_%E6%97%85%E8%A1%8C%E8%B6%B3%E8%BF%B9"
 				style="visibility: visible; top: 0px; opacity: 1;"> <img
 				src="./files/FootMark.jpg" alt="旅行足迹"> </a> <a
-				id="snaps-3" target="_blank"
+				id="snaps-4" target="_blank"
 				href="http://zhushou.360.cn/detail/index/soft_id/1583184?recrefer=SE_D_AA%E5%88%B6%E7%94%9F%E6%B4%BB"
 				style="visibility: visible; top: 0px; opacity: 1;"> <img
-				src="./files/AALife.jpg" alt="AA制生活"> </a> <a id="snaps-4"
+				src="./files/AALife.jpg" alt="AA制生活"> </a> <a id="snaps-5"
 				target="_blank"
 				href="https://github.com/berniezhang428/98Blog"
 				style="visibility: visible; top: 0px; opacity: 1;"> <img
-				src="./files/98Blog.jpg" alt="98Blog"> </a> <a id="snaps-5"
+				src="./files/98Blog.jpg" alt="98Blog"> </a> <a id="snaps-6"
 				target="_blank"
 				href="http://zhushou.360.cn/detail/index/soft_id/266366?recrefer=SE_D_%E6%97%A5%E7%A8%8B%E5%8A%A9%E6%89%8B"
 				style="visibility: visible; top: 0px; opacity: 1;"> <img
 				src="./files/smsHelper.png" alt="日程助手"> </a> <a
-				id="snaps-6" target="_blank"
-				href="http://soft.zzti.edu.cn:8888"
+				id="snaps-7" target="_blank"
+				href="http://hntalent.duapp.com/"
 				style="visibility: visible; top: 0px; opacity: 1;"> <img
 				src="./files/website.jpg" alt="河南软件行业发展与人才培养论坛官网"> </a>
+				
 
 		</div>
 	</section>
@@ -107,7 +111,9 @@
 				</div>
 				<div id="img-1" class="col-7 align-c"
 					style="visibility: visible; right: 0%; opacity: 1;">
-					<img class="major" src="./files/yoda.jpg" alt="Yoda rocks">
+					<embed src="http://player.youku.com/player.php/sid/XNzY0Njk3MjUy/v.swf" quality="high" width="480" height="400" align="middle" allowscriptaccess="sameDomain" type="application/x-shockwave-flash"></embed>
+
+				
 				</div>
 			</div>
 		</section>

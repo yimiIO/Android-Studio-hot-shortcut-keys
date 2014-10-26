@@ -44,7 +44,7 @@
 <div class="col-6 nomargin clearfix">
 <p>Your message:<br>
 <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" class="wpcf7-form-control  wpcf7-textarea wpcf7-validates-as-required message" cols="40" rows="10"></textarea></span></p>
-<p class="clearfix"><input type="submit" value="Send your email" class="wpcf7-form-control  wpcf7-submit submit"></p>
+<p class="clearfix"><input type="text" name="confirm_number" value="www.98ki.com"><input type="submit" value="Send your email" class="wpcf7-form-control  wpcf7-submit submit"></p>
 </div>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>				
 			</div>

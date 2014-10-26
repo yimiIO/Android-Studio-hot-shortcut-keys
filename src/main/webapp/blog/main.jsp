@@ -157,28 +157,7 @@
 						}
 					%>
 				</ul>
-				<h2>最近的评论</h2>
-				<ul>
-					<%
-						List comments = (List) request.getAttribute("comments");
-						for (int i = 0; i < comments.size(); i++) {
-							Comment c = (Comment) comments.get(i);
-							String comment = c.getContent();
-							if (comment.length() > 20)
-								comment = comment.substring(0, 20) + "……";
-					%>
-					<li><a
-						href="/blog/HomeServlet?method=get&id=<%=c.getBlogId()%>"
-						target="_blank"><xmp><%=comment%></xmp> </a></li>
-					<%
-						}
-					%>
-
-
-
-
-
-				</ul>
+				
 
 
 

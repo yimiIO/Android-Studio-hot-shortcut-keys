@@ -1,3 +1,5 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+
 <footer style="opacity: 1; top: 0px;" id="footer" role="contentinfo">
 
 	<div class="row">
@@ -13,7 +15,7 @@
 									+ _bdhmProtocol
 									+ "hm.baidu.com/h.js%3F7dff31a2111bbc9caa18e047c49254f4' type='text/javascript'%3E%3C/script%3E"));
 				</script>
-				<a class="transition" href="http://www.98ki.com/">� 2014 98ki </a>
+				Copyright© 2014 <a class="transition" href="http://www.miitbeian.gov.cn/">豫ICP备14019584 </a>
 
 			</div>
 
