@@ -3,8 +3,8 @@ Android Studio常用快捷键（Windows/Mac）
 
 
 ##IDE相关
-ESC　　　     　　　ESC　　　　　　     　光标返回编辑框<br>
-Alt＋F1　　　　　　 Alt+F1     　　  　   可以将正在编辑的元素在各个面板中定位<br>
+ES									ESC									光标返回编辑框<br>
+Alt＋F1									Alt+F1									可以将正在编辑的元素在各个面板中定位<br>
 Ctrl+Alt+L　　　　　cmd+Alt+L  　　　　　 格式化代码 <br>
 Alt+Shift+C　　　　 Alt+Shift+C　　　   　对比最近修改的代码<br>
 
