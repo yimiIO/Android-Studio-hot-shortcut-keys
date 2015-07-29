@@ -3,7 +3,7 @@ Android Studio常用快捷键
 
 
 ##IDE相关
-ESC　　　　　　　　　　　　　光标返回编辑框<br>
+ESC　　　　　　　ESC　　　　　　光标返回编辑框<br>
 Alt＋F1　　　　　　　　　　　可以将正在编辑的元素在各个面板中定位<br>
 Ctrl+Alt+L　　　　　　　　　　格式化代码 <br>
 Alt+Shift+C　　　　　　　　　对比最近修改的代码<br>
@@ -27,11 +27,11 @@ Ctrl+Shift+Space　　　　　　　　自动补全代码 <br>
 Ctrl+Shift+up/down　　　　　　　移动方法<br>
 
 ##查找
-Alt + F3　　　　　　　　　　　　快速查找选中关键字<br>
+Alt + F3　||　　　　　　　　　　　快速查找选中关键字<br>
 F3　　　　　　　　　　　　　　　下一个关键字出现的位置<br> 
 Shift+F3　　　　　　　　　　　　上一个关键字出现的位置<br> 
-Ctrl+N　　　　　　　　　　　　　查找类<br> 
-Ctrl+Shift+N　　　　　　　　　　查找文件<br> 
+Ctrl+N　　||　　　　cmd+o　　　　||　　　查找类<br> 
+Ctrl+Shift+N　　　cmd+shift+o　　　　　　　查找文件<br> 
 Ctrl+B　　　　　　　　　　　　　查找变量来源<br> 
 Ctrl+Alt+B　　　　　　　　　　　打开光标处的类或方法<br> 
 Ctrl+Shift+B　　　　　　　　　　跳到类和方法的实现处<br> 
