@@ -19,7 +19,7 @@ Ctrl+D　　　　　　　　　　　　cmd+D　　　　　　　　　　　
 Shift+F6　　　　　　　　　　　　　　　　　　　　　　　　　　　重构-重命名<br>
 Ctrl+Y　　　　　　　　　　　　cmd+空格　　　　　　　　　　　　删除行<br> 
 Ctrl+R　　　　　　　　　　　　cmd+R　　　　　　　　　　　　　替换文本<br>
-Alt+Enter　　　　　　　　　　cmd+Enter　　　　　　　　　　　　导入包,自动修正<br>
+Alt+Enter　　　　　　　　　　alt+Enter　　　　　　　　　　　　导入包,自动修正<br>
 Ctrl+Alt+O　　　　　　　　　Ctrl+Alt+O　　　　　　　　　　　　优化导入的类和包<br>
 Ctrl+J　　　　　　　　　　　cmd+J　　　　　　　　　　　　　　自动代码<br>
 Ctrl+Shift+up/down　　　　　cmd+alt+up/down　　　　　　　　　　移动方法<br>
