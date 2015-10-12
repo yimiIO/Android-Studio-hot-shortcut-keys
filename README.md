@@ -57,7 +57,8 @@ Ctrl+H　　　　　 　　　　　　ctrl+H　　　　　　　　　　　 
 Ctrl+alt+H　　　　　　　　 ctrl+alt+H　　　　　　　　　　　　显示调用层级<br> 
 Ctrl+U　　　　　　　　　　　　　　　　　　　　　　　　　　　打开实现的父类和接口<br> 
 Ctrl＋[或]　　　　　　　　　　　　　　　　　　　　　　　　　跳到大括号的开头或结尾<br>
-
+Ctrl + Plus　　　　　　　　 Cmd + Plus　　　　　　　　　　 　折叠展开代码块	
+Cmd + Shift + plus　　　　　Ctrl + Shift + Plus　　　　　　　折叠展开全部代码块
 
 
 
