@@ -11,8 +11,8 @@ Ctrl+P　　　　　　　　　　　　 cmd+P　　　　　　　　　　�
 Ctrl＋Shift＋Space　　　　　　　　　　　　　　　　　　　　　　在很多时候都能够给出Smart提示<br>  
 Ctrl+Alt+Space　　　　　　　　　　　　　　　　　　　　　　　　类名或接口名提示<br>
 Alt＋F8　　　　　　　　　　　　　　　　　　　　　　　　　　　计算变量值<br>
-Alt + Enter　　　　　　　　　　Alt + Enter　　　　　　　　　　　提示错误解决方案
-Ctrl + Shift + Enter　　　　　 Cmd + Shift + Enter           　代码补全
+Alt + Enter　　　　　　　　　　Alt + Enter　　　　　　　　　　　提示错误解决方案<br>
+Ctrl + Shift + Enter　　　　　Cmd + Shift + Enter　　　　　　　代码补全
 
 
 
@@ -57,7 +57,7 @@ Ctrl+H　　　　　 　　　　　　ctrl+H　　　　　　　　　　　 
 Ctrl+alt+H　　　　　　　　 ctrl+alt+H　　　　　　　　　　　　显示调用层级<br> 
 Ctrl+U　　　　　　　　　　　　　　　　　　　　　　　　　　　打开实现的父类和接口<br> 
 Ctrl＋[或]　　　　　　　　　　　　　　　　　　　　　　　　　跳到大括号的开头或结尾<br>
-Ctrl + Plus　　　　　　　　 Cmd + Plus　　　　　　　　　　 　折叠展开代码块	
+Ctrl + Plus　　　　　　　　 Cmd + Plus　　　　　　　　　　 　折叠展开代码块<br>
 Cmd + Shift + plus　　　　　Ctrl + Shift + Plus　　　　　　　折叠展开全部代码块
 
 
