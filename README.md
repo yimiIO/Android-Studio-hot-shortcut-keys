@@ -1,15 +1,15 @@
-#Android Studio常用快捷键大全   
+# Android Studio常用快捷键大全   
 
 **Windows/Linux**　　　　　　 　　**Mac**　　　　　　　 　　　　　　　**解释**   
 
-##IDE相关   
+## IDE相关   
 
 ESC　　　　　　　　　　　　　　ESC　　　　　　　　　　　　　　光标返回编辑框<br>
 Alt＋F1　　　　 　　　　　　 　Alt+F1　　　　　　　　　　　　 可以将正在编辑的元素在各个面板中定位<br>
 Ctrl+Alt+L　　　　　　　 　　　cmd+Alt+L　　　　　　　　　　　格式化代码 <br>
 Alt+Shift+C　　　　　　　　　　Alt+Shift+C　　　　　　　　　　对比最近修改的代码<br>
 
-##提示   
+## 提示   
 
 Ctrl+P　　　　　　　　　　　　 cmd+P　　　　　　　　　　　　　方法参数提示<br>
 Ctrl＋Shift＋Space　　　　　　　　　　　　　　　　　　　　　　在很多时候都能够给出Smart提示<br>  
@@ -21,7 +21,7 @@ Ctrl + Shift + Enter　　　　　Cmd + Shift + Enter　　　　　　　代�
 
 
 
-##编辑   
+## 编辑   
 
 Ctrl+R　　　　　　　　　　　　cmd+R　　　　　　　　　　　　　 替换文本<br>
 Ctrl+D　　　　　　　　　　　　cmd+D　　　　　　　　　　　　　 复制行<br>
@@ -35,7 +35,7 @@ Alt+Shift+Up/Down　　　　　　 Option + Shift + Up/Down　　　　 移动�
 Ctrl+W　　　　　　　　　　　　alt+up/down　　　　　　　　　　　选中代码<br>
 Ctrl+O　　　　　　　　　　　　Ctrl + O　　　　　　　　　　　　 快捷覆写方法	
 
-##查找   
+## 查找   
 
 Ctrl+alt+左　　　　　　　　cmd+alt+左右　　　　　　　　　　　前进后退<br>
 Ctrl+shift+空格　　　　　　cmd+shift+空格　　　　　　　　　　上一个有改动的位置<br>
@@ -57,7 +57,7 @@ ctrl+shift+i　　　　　　　　alt+空格　　　　　　　　　　　�
 Ctrl + Alt + H　　　　　　Ctrl + Alt + H　　　　　　　　　　查找调用的位置
 
 
-##文件   
+## 文件   
 
 Ctrl+F12　　　　　 　　　  cmd+F12　　　　　　　　　　　　　显示当前文件结构<br> 
 Ctrl+H　　　　　 　　　　　　ctrl+H　　　　　　　　　　　   显示类继承结构图<br> 
